@@ -59,22 +59,22 @@ export class MainPage {
   minumum_balance:number = 0.1;
 
   // REWARDS
-  // M id : ca-app-pub-4781041300358039/4943879735
-  rewardId:string = 'ca-app-pub-4781041300358039/4943879735';
+  // M id : ca-app-pub-4781041300358039/1843911351
+  //rewardId:string = 'ca-app-pub-4781041300358039/1843911351';
   // T id : ca-app-pub-3940256099942544/5224354917
-  //rewardId:string = 'ca-app-pub-3940256099942544/5224354917';
+  rewardId:string = 'ca-app-pub-3940256099942544/5224354917';
 
   // INTERSTITIALS
-  // M id : ca-app-pub-4781041300358039/2310227861
-  interId:string = 'ca-app-pub-4781041300358039/2310227861';
+  // M id : ca-app-pub-4781041300358039/7678815679
+  //interId:string = 'ca-app-pub-4781041300358039/7678815679';
   // T id : ca-app-pub-3940256099942544/8691691433
-  //interId:string = 'ca-app-pub-3940256099942544/5224354917';
+  interId:string = 'ca-app-pub-3940256099942544/5224354917';
 
   // BANNERS
-  // M id : ca-app-pub-4781041300358039/7468703746
-  bannerId:string = 'ca-app-pub-4781041300358039/7468703746';
+  // M id : ca-app-pub-4781041300358039/8162085306
+  //bannerId:string = 'ca-app-pub-4781041300358039/8162085306';
   // T id : ca-app-pub-3940256099942544/6300978111
-  //bannerId:string = 'ca-app-pub-3940256099942544/6300978111';
+  bannerId:string = 'ca-app-pub-3940256099942544/6300978111';
   testing:boolean = false;
   isAdReady:boolean = false;
 
@@ -111,7 +111,7 @@ export class MainPage {
 
     this.appRate.preferences.storeAppURL = {
       ios: '<app_id>',
-      android: 'market://details?id=gr.givealike.givealike',
+      android: 'market://details?id=com.agelogeo.dudelike',
       windows: 'ms-windows-store://review/?ProductId=<store_id>'
     };
 
@@ -258,13 +258,13 @@ export class MainPage {
 
         }else{
           if (data.action == "android"){
-            this.socialSharing.share('Givealike helps you promote your social profile on your favorite social network. It provides you the easiest way to get unlimited free likes on the photo of your preference.','Free Likes - Givealike','assets/imgs/logo.png','https://play.google.com/store/apps/details?id=gr.givealike.givealike').then(() => {
+            this.socialSharing.share('Dudelike helps you promote your social profile on your favorite social network. It provides you the easiest way to get unlimited free likes on the photo of your preference.','Free Likes - Dudelike','assets/imgs/logo.png','https://play.google.com/store/apps/details?id=com.agelogeo.dudelike').then(() => {
               // Success!
             }).catch(() => {
               // Error!
             });
           } else if (data.action == "ios"){
-            this.socialSharing.share('Givealike helps you promote your social profile on your favorite social network. It provides you the easiest way to get unlimited free likes on the photo of your preference.','Free Likes - Givealike','assets/imgs/logo.png','https://play.google.com/store/apps/details?id=gr.givealike.givealike').then(() => {
+            this.socialSharing.share('Dudelike helps you promote your social profile on your favorite social network. It provides you the easiest way to get unlimited free likes on the photo of your preference.','Free Likes - Dudelike','assets/imgs/logo.png','https://play.google.com/store/apps/details?id=com.agelogeo.dudelike').then(() => {
               // Success!
             }).catch(() => {
               // Error!

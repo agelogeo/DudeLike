@@ -29,7 +29,12 @@ import {ScreenOrientation} from "@ionic-native/screen-orientation";
 import {Push} from "@ionic-native/push";
 
 export const firebaseConfig={
-
+  apiKey: "AIzaSyBGGNERJEqSK6euKtE2tlqw7jP8DGRvc7M",
+  authDomain: "dudelike-7d114.firebaseapp.com",
+  databaseURL: "https://dudelike-7d114.firebaseio.com",
+  projectId: "dudelike-7d114",
+  storageBucket: "",
+  messagingSenderId: "384316743258"
 }
 firebase.initializeApp(firebaseConfig);
 firebase.database();

@@ -1,5 +1,5 @@
 {
-  "name": "Givealike",
+  "name": "DudeLike",
   "version": "0.0.1",
   "author": "Agelogeo",
   "homepage": "http://ionicframework.com/",
@@ -34,10 +34,10 @@
     "@ionic-native/status-bar": "^4.15.0",
     "@ionic/storage": "^2.2.0",
     "angularfire2": "^5.0.2",
-    "cordova-admob-sdk": "^0.20.0",
+    "cordova-admob-sdk": "^0.20.3",
     "cordova-android": "6.4.0",
     "cordova-clipboard": "^1.2.1",
-    "cordova-plugin-admob-free": "0.21.0",
+    "cordova-plugin-admob-free": "^0.21.0",
     "cordova-plugin-android-permissions": "^1.0.0",
     "cordova-plugin-app-version": "^0.1.9",
     "cordova-plugin-apprate": "^1.4.0",
@@ -52,9 +52,9 @@
     "cordova-plugin-screen-orientation": "^3.0.1",
     "cordova-plugin-splashscreen": "^5.0.2",
     "cordova-plugin-whitelist": "^1.3.3",
-    "cordova-plugin-x-socialsharing": "^5.4.1",
+    "cordova-plugin-x-socialsharing": "^5.4.4",
     "cordova-promise-polyfill": "0.0.2",
-    "cordova-sqlite-storage": "^2.4.0",
+    "cordova-sqlite-storage": "^2.6.0",
     "cryptiles": "^4.1.2",
     "es6-promise-plugin": "^4.2.2",
     "firebase": "^5.5.2",
@@ -62,7 +62,7 @@
     "ionic": "^4.1.2",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
-    "phonegap-plugin-push": "^2.1.3",
+    "phonegap-plugin-push": "^2.2.3",
     "rxjs": "5.5.11",
     "sw-toolbox": "3.6.0",
     "zone.js": "0.8.26"
@@ -87,7 +87,9 @@
       "cordova-sqlite-storage": {},
       "cordova-plugin-android-permissions": {},
       "cordova-plugin-apprate": {},
-      "cordova-plugin-x-socialsharing": {},
+      "cordova-plugin-x-socialsharing": {
+        "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
+      },
       "cordova-plugin-app-version": {},
       "cordova-plugin-screen-orientation": {},
       "phonegap-plugin-push": {

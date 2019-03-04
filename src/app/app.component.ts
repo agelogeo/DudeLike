@@ -66,15 +66,15 @@ export class MyApp {
       });
 
     this.push.createChannel({
-      id: "givealikechannel",
-      description: "Givealike Push Channel",
+      id: "dudelikechannel",
+      description: "DudeLike Push Channel",
       // The importance property goes from 1 = Lowest, 2 = Low, 3 = Normal, 4 = High and 5 = Highest.
       importance: 3
     }).then(() => console.log('Channel created'));
 
     const options: PushOptions = {
       android: {
-        senderID: '122276348193',
+        senderID: '384316743258',
         forceShow : true,
         sound: true,
         vibrate: true

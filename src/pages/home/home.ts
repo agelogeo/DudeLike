@@ -52,7 +52,7 @@ export class HomePage {
     let alert = this.alertCtrl.create({
       title: 'WARNING !! <br>[BETA RELEASE]',
       subTitle: 'We don\'t need your account credentials.',
-      message : `Givealike will NEVER ask you for your username or password. We ONLY need a link to send your reward. <br><br> Keep in mind that we don\'t guarantee likes\' delivery.<br>PLEASE BE PATIENT.`,
+      message : `DudeLike will NEVER ask you for your username or password. We ONLY need a link to send your reward. <br><br> Keep in mind that we don\'t guarantee likes\' delivery.<br>PLEASE BE PATIENT.`,
       buttons: ['I understand.']
     });
     alert.present();
@@ -110,7 +110,7 @@ export class HomePage {
 
       this.googlePlus.login({
         'scopes' : 'email',
-        'webClientId': '122276348193-l0l7rgaqtpl0p0h7gvd5g4n61nn7prkm.apps.googleusercontent.com', // optional clientId of your Web application from Credentials settings of your project - On Android, this MUST be included to get an idToken. On iOS, it is not required.
+        'webClientId': '384316743258-t99ksbndenf7m7h5j4pdjo4bn0r45vbh.apps.googleusercontent.com', // optional clientId of your Web application from Credentials settings of your project - On Android, this MUST be included to get an idToken. On iOS, it is not required.
         'offline': false
       })
         .then(res => {

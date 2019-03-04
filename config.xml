@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="gr.givealike.givealike" version="23.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Givealike - Free Likes</name>
-    <description>An awesome app offering free likes for social media</description>
+<widget id="com.agelogeo.dudelike" version="23.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>DudeLike - Free Likes</name>
+    <description>An awesome app for social media</description>
     <author email="agelogeo@gmail.com" href="http://agelogeo.com/">Agelogeo</author>
     <content src="index.html" />
     <access origin="*" />
@@ -84,7 +84,7 @@
         <variable name="SENDER_ID" value="122276348193" />
     </plugin>
     <plugin name="cordova-plugin-admob-free" spec="0.21.0">
-        <variable name="ADMOB_APP_ID" value="ca-app-pub-4781041300358039~5856284969" />
+        <variable name="ADMOB_APP_ID" value="ca-app-pub-4781041300358039~8154346441" />
     </plugin>
     <engine name="android" spec="6.4.0" />
 </widget>
